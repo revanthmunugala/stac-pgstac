@@ -20,4 +20,6 @@ COPY . /app
 
 RUN python -m pip install -e .[server]
 
+RUN pip install titiler.core titiler.pgstac
+
 CMD ["uvicorn", "stac_fastapi.pgstac.app:app", "--host", "0.0.0.0", "--port", "8080"]

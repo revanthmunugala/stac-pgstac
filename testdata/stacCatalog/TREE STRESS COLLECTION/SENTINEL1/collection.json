@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "SENTINEL1",
+  "stac_version": "1.0.0",
+  "description": "Collection for provider SENTINEL1",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell77_SENTINEL1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.75365687177406,
+          35.21234893241993,
+          -111.38939224079255,
+          35.57498389072999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-04-23T00:00:00Z",
+          "2023-10-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

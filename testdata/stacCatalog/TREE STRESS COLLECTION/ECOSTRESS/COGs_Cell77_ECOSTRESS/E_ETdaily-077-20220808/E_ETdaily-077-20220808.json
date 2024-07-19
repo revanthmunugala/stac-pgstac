@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "E_ETdaily-077-20220808",
+  "properties": {
+    "proj:epsg": 4326,
+    "datetime": "2022-08-08T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.74974705908768,
+          35.21270227247395
+        ],
+        [
+          -111.75309027350757,
+          35.5730894929007
+        ],
+        [
+          -111.39154403207908,
+          35.574806019365894
+        ],
+        [
+          -111.38980569474207,
+          35.21439621738759
+        ],
+        [
+          -111.74974705908768,
+          35.21270227247395
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "file_name": {
+      "href": "/treestress/tileData/monsoonData/COGs_Cell77/ECOSTRESS/E_ETdaily-077-20220808.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    -111.75309027350757,
+    35.21270227247395,
+    -111.38980569474207,
+    35.574806019365894
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "COGs_Cell77_ECOSTRESS"
+}

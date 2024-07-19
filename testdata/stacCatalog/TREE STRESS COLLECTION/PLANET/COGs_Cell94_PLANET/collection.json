@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell94_PLANET",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell94 from PLANET",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_094-20220607/P_094-20220607.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.75369379599798,
+          34.85297083678646,
+          -111.38940870395528,
+          35.215638097892395
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-07T00:00:00Z",
+          "2022-06-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

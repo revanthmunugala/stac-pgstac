@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell76_ECOSTRESS",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell76 from ECOSTRESS",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-076-20220620/E_ETsoil-076-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-076-20220620/E_ETinst-076-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-076-20220620/E_ETcanopy-076-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinterception-076-20220620/E_ETinterception-076-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstUncertainty-076-20220620/E_ETinstUncertainty-076-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-076-20220620/E_ETdaily-076-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.10940093567396,
+          35.214576849555066,
+          -111.75096960377003,
+          35.573008181458995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-20T00:00:00Z",
+          "2022-06-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

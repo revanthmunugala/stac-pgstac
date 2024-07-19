@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell77_LANDSAT",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell77 from LANDSAT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20230427/L_rgb-077-20230427.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20220627/L_rgb-077-20220627.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20231020/L_rgb-077-20231020.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20230825/L_rgb-077-20230825.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20230529/L_rgb-077-20230529.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20230716/L_rgb-077-20230716.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20230918/L_rgb-077-20230918.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-077-20230622/L_rgb-077-20230622.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.7535995843846,
+          35.21248451807961,
+          -111.38966756561128,
+          35.57475758589718
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-27T00:00:00Z",
+          "2023-10-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

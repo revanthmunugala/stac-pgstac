@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell93_PLANET",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell93 from PLANET",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_093-20220607/P_093-20220607.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11461238411917,
+          34.85190010733905,
+          -111.74715353047723,
+          35.216703146740294
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-07T00:00:00Z",
+          "2022-06-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

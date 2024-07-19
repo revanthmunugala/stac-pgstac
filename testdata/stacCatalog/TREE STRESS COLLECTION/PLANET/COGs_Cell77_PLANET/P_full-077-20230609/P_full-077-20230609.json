@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "P_full-077-20230609",
+  "properties": {
+    "proj:epsg": 4326,
+    "datetime": "2023-06-09T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.75038243431666,
+          35.21226730865237
+        ],
+        [
+          -111.75373403420404,
+          35.573252980800774
+        ],
+        [
+          -111.39110915456999,
+          35.57497494597316
+        ],
+        [
+          -111.38936987901229,
+          35.213966583316854
+        ],
+        [
+          -111.75038243431666,
+          35.21226730865237
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "file_name": {
+      "href": "/treestress/tileData/monsoonData/COGs_Cell77/PLANET/P_full-077-20230609.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    -111.75373403420404,
+    35.21226730865237,
+    -111.38936987901229,
+    35.57497494597316
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "COGs_Cell77_PLANET"
+}

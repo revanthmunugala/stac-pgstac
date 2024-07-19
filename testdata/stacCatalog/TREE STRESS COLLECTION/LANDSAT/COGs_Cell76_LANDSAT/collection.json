@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell76_LANDSAT",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell76 from LANDSAT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-076-20220627/L_rgb-076-20220627.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11446985637484,
+          35.21134821975868,
+          -111.74730117828622,
+          35.57603123600172
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-27T00:00:00Z",
+          "2022-06-27T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

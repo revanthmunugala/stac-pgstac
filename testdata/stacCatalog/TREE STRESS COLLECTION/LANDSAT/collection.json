@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "id": "LANDSAT",
+  "stac_version": "1.0.0",
+  "description": "Collection for provider LANDSAT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell76_LANDSAT/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell77_LANDSAT/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell93_LANDSAT/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell94_LANDSAT/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11447834252833,
+          34.852117688060886,
+          -111.38960560855563,
+          35.57603123600172
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-27T00:00:00Z",
+          "2023-10-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell77_PLANET",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell77 from PLANET",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_full-077-20230715/P_full-077-20230715.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_full-077-20230527/P_full-077-20230527.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_full-077-20230609/P_full-077-20230609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_077-20220607/P_077-20220607.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_full-077-20230423/P_full-077-20230423.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./P_full-077-20230806/P_full-077-20230806.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.75373403420404,
+          35.21226730865237,
+          -111.38936987901229,
+          35.57497494597316
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-07T00:00:00Z",
+          "2023-08-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

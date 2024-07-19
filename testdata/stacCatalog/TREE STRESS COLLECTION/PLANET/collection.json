@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "id": "PLANET",
+  "stac_version": "1.0.0",
+  "description": "Collection for provider PLANET",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell76_PLANET/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell77_PLANET/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell93_PLANET/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell94_PLANET/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11466847065324,
+          34.85190010733905,
+          -111.38936987901229,
+          35.57603247285757
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-07T00:00:00Z",
+          "2023-08-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

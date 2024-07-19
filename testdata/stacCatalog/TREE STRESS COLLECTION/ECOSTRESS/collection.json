@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "id": "ECOSTRESS",
+  "stac_version": "1.0.0",
+  "description": "Collection for provider ECOSTRESS",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell76_ECOSTRESS/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell77_ECOSTRESS/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell93_ECOSTRESS/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell94_ECOSTRESS/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.10940093567396,
+          34.85488343549654,
+          -111.3893976461445,
+          35.5749695666569
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-05-07T00:00:00Z",
+          "2022-11-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

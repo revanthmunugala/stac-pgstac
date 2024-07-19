@@ -77,6 +77,8 @@ class Settings(ApiSettings):
 
     testing: bool = False
 
+
+
     @property
     def reader_connection_string(self):
         """Create reader psql connection string."""

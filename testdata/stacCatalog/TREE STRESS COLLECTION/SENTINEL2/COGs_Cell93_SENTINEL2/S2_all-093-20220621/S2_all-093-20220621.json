@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "S2_all-093-20220621",
+  "properties": {
+    "proj:epsg": 4326,
+    "datetime": "2022-06-21T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.10963106915493,
+          34.85189178995921
+        ],
+        [
+          -112.11453511738938,
+          35.213871702936515
+        ],
+        [
+          -111.75045597071154,
+          35.21667609771145
+        ],
+        [
+          -111.74715344895385,
+          34.854658962590435
+        ],
+        [
+          -112.10963106915493,
+          34.85189178995921
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "file_name": {
+      "href": "/treestress/tileData/monsoonData/COGs_Cell93/SENTINEL2/S2_all-093-20220621.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    -112.11453511738938,
+    34.85189178995921,
+    -111.74715344895385,
+    35.21667609771145
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "COGs_Cell93_SENTINEL2"
+}

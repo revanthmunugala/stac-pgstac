@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "L_rgb-076-20220627",
+  "properties": {
+    "proj:epsg": 4326,
+    "datetime": "2022-06-27T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.1095018443511,
+          35.21134821975868
+        ],
+        [
+          -112.11446985637484,
+          35.57321646717015
+        ],
+        [
+          -111.75064782596527,
+          35.57603123600172
+        ],
+        [
+          -111.74730117828622,
+          35.214125807309244
+        ],
+        [
+          -112.1095018443511,
+          35.21134821975868
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "file_name": {
+      "href": "/treestress/tileData/monsoonData/COGs_Cell76/LANDSAT/L_rgb-076-20220627.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    -112.11446985637484,
+    35.21134821975868,
+    -111.74730117828622,
+    35.57603123600172
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "COGs_Cell76_LANDSAT"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "Catalog",
+  "id": "SAMPLE TREE STRESS DATASET CATALOG - NOT FOR PRODUCTION",
+  "stac_version": "1.0.0",
+  "description": "A sample catalog for Arizona Tree Stress and Alert System - Not for production use.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./PLANET/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./SENTINEL1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./SENTINEL2/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./LANDSAT/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ECOSTRESS/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

@@ -32,7 +32,14 @@ from stac_fastapi.pgstac.extensions.filter import FiltersClient
 from stac_fastapi.pgstac.transactions import BulkTransactionsClient, TransactionsClient
 from stac_fastapi.pgstac.types.search import PgstacSearch
 
-settings = Settings()
+# # Import TiTiler modules
+from titiler.core.factory import TilerFactory
+from titiler.mosaic.factory import MosaicTilerFactory
+from titiler.core.factory import MultiBaseTilerFactory
+
+
+settings = Settings(
+)
 extensions_map = {
     "transaction": TransactionExtension(
         client=TransactionsClient(),
@@ -78,6 +85,15 @@ api = StacApi(
 )
 app = api.app
 
+# Create TiTiler factories
+cog = TilerFactory()
+mosaic = MosaicTilerFactory()
+stac = MultiBaseTilerFactory()
+
+# Include TiTiler routers
+app.include_router(cog.router, prefix="/cog")
+app.include_router(mosaic.router, prefix="/mosaic")
+app.include_router(stac.router, prefix="/stac")
 
 @app.on_event("startup")
 async def startup_event():

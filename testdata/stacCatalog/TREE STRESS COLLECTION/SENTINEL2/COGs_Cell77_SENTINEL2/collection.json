@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell77_SENTINEL2",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell77 from SENTINEL2",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20230716/S2_all-077-20230716.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20230805/S2_all-077-20230805.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20220621/S2_all-077-20220621.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20230611/S2_all-077-20230611.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20230417/S2_all-077-20230417.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20230919/S2_all-077-20230919.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20231019/S2_all-077-20231019.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-077-20230527/S2_all-077-20230527.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.75365687177406,
+          35.21234893241993,
+          -111.38939224079255,
+          35.57498389072999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-21T00:00:00Z",
+          "2023-10-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "id": "SENTINEL2",
+  "stac_version": "1.0.0",
+  "description": "Collection for provider SENTINEL2",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell76_SENTINEL2/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell77_SENTINEL2/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell93_SENTINEL2/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./COGs_Cell94_SENTINEL2/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11463474381573,
+          34.85189178995921,
+          -111.38939224079255,
+          35.57598718770988
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-21T00:00:00Z",
+          "2023-10-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

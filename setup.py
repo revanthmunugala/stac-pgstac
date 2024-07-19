@@ -18,6 +18,8 @@ install_requires = [
     "brotli_asgi",
     "pygeofilter>=0.2",
     "pypgstac==0.8.*",
+    "pystac",
+    "titiler.core"
 ]
 
 extra_reqs = {
@@ -34,6 +36,7 @@ extra_reqs = {
         "httpx",
         "twine",
         "wheel",
+        "pystac"
     ],
     "docs": ["mkdocs", "mkdocs-material", "pdocs"],
     "server": ["uvicorn[standard]==0.19.0"],

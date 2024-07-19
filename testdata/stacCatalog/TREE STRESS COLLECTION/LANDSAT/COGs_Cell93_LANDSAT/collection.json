@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell93_LANDSAT",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell93 from LANDSAT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./L_rgb-093-20220627/L_rgb-093-20220627.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11447834252833,
+          34.852117688060886,
+          -111.74731956446257,
+          35.216539830868015
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-27T00:00:00Z",
+          "2022-06-27T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

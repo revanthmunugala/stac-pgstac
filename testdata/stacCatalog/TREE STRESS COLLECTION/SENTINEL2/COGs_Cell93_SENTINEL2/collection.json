@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell93_SENTINEL2",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell93 from SENTINEL2",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2_all-093-20220621/S2_all-093-20220621.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.11453511738938,
+          34.85189178995921,
+          -111.74715344895385,
+          35.21667609771145
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-21T00:00:00Z",
+          "2022-06-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,304 @@
+{
+  "type": "Collection",
+  "id": "COGs_Cell77_ECOSTRESS",
+  "stac_version": "1.0.0",
+  "description": "Collection for COGs_Cell77 from ECOSTRESS",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20221102/E_ETinter-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20221102/E_ETsoil-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_WUE-077-20220906/E_WUE-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20221008/E_ETinter-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20220708/E_ETcanopy-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20220507/E_ETdaily-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20221102/E_ETinst-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20220808/E_ETinstU-077-20220808.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20221008/E_ETinst-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20220708/E_ETinst-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20220507/E_ETinstU-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20220609/E_ETinter-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20220609/E_ETsoil-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20220620/E_ETinst-077-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_WUE-077-20221008/E_WUE-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20220808/E_ETsoil-077-20220808.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_WUE-077-20220609/E_WUE-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20220808/E_ETinst-077-20220808.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20220906/E_ETsoil-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20220906/E_ETdaily-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20220808/E_ETcanopy-077-20220808.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20220609/E_ETcanopy-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20220609/E_ETdaily-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20220620/E_ETsoil-077-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20220609/E_ETinstU-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20220906/E_ETcanopy-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20220708/E_ETinstU-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_WUE-077-20220507/E_WUE-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20220507/E_ETcanopy-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20221102/E_ETcanopy-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20220808/E_ETinter-077-20220808.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_WUE-077-20220708/E_WUE-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20220708/E_ETsoil-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E-ETsoil-077-20221008/E-ETsoil-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_WUE-077-20221102/E_WUE-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20221008/E_ETdaily-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20220609/E_ETinst-077-20220609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20220906/E_ETinstU-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E-ETdaily-077-20221102/E-ETdaily-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20221102/E_ETinstU-077-20221102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETsoil-077-20220507/E_ETsoil-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20220708/E_ETdaily-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20220708/E_ETinter-077-20220708.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20220507/E_ETinst-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20220808/E_ETdaily-077-20220808.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinterception-077-20220620/E_ETinterception-077-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinst-077-20220906/E_ETinst-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20220507/E_ETinter-077-20220507.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinter-077-20220906/E_ETinter-077-20220906.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETinstU-077-20221008/E_ETinstU-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETdaily-077-20220620/E_ETdaily-077-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20220620/E_ETcanopy-077-20220620.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_ETcanopy-077-20221008/E_ETcanopy-077-20221008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.75357622580256,
+          35.21234497618655,
+          -111.3893976461445,
+          35.5749695666569
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-05-07T00:00:00Z",
+          "2022-11-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
