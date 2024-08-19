@@ -17,7 +17,7 @@ install_requires = [
     "buildpg",
     "brotli_asgi",
     "pygeofilter>=0.2",
-    "pypgstac==0.8.*",
+    "pypgstac>=0.8,<0.10",
     "pystac",
     "titiler.core"
 ]
@@ -25,11 +25,11 @@ install_requires = [
 extra_reqs = {
     "dev": [
         "pystac[validation]",
-        "pypgstac[psycopg]==0.8.*",
+        "pypgstac[psycopg]>=0.8,<0.10",
         "pytest-postgresql",
         "pytest",
         "pytest-cov",
-        "pytest-asyncio>=0.17,<0.23.0",
+        "pytest-asyncio>=0.17,<0.24.0",
         "pre-commit",
         "requests",
         "shapely",
@@ -39,7 +39,7 @@ extra_reqs = {
         "pystac"
     ],
     "docs": ["mkdocs", "mkdocs-material", "pdocs"],
-    "server": ["uvicorn[standard]==0.19.0"],
+    "server": ["uvicorn[standard]==0.30.6"],
     "awslambda": ["mangum"],
 }
 
